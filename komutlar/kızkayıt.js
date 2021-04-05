@@ -1,5 +1,5 @@
 const discord = require('discord.js')
-const db = require('quick.db')
+const db = require('wio.db')
 const tag = ""//buraya sunucunuzun tagını koyun kayıt ettiğiniz kişiye otomatik olarak tag verilir
 
 exports.run = async(client, message, args) => {
